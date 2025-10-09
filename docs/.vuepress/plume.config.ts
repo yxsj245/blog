@@ -41,20 +41,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: (
-      `<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px;">` +
-        `<span style="white-space: nowrap;">` +
-          `<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">豫ICP备2025116534号-1</a>` +
-        `</span>` +
-        `<span>|</span>` +
-        `<span style="white-space: nowrap;">` +
-          `<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41031102000868" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center;">` +
-            `<img src="https://www.xiaozhuhouses.asia/ga.webp" alt="公安备案图标" style="height: 14px; width: 14px; margin-right: 4px;" />` +
-            `豫公网安备41031102000868号` +
-          `</a>` +
-        `</span>` +
-      `</div>`
-    ),
+    message: '<a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2025116534号-1</a> | <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41031102000868" target="_blank"><img src="https://images.server.xiaozhuhouses.asia/i/2025/06/09/ytwqb0.webp" style="display:inline-block;height:14px;margin-right:4px;vertical-align:middle;" alt="公安备案" />豫公网安备41031102000868号</a>',
     copyright: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
   },
 
