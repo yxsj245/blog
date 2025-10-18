@@ -8,13 +8,9 @@ tags:
   - GPU
 ---
 
-本文将详细介绍如何使用NVIDIA Container Toolkit在Docker容器中调用英伟达显卡，实现GPU加速应用的容器化部署。
+NVIDIA Container Toolkit 是一个工具集，它允许在 Docker 或其他容器运行时（如 containerd、Podman）中轻松地运行支持 GPU 加速的容器。它本质上是容器运行时和主机上的 NVIDIA GPU 驱动程序之间的"桥梁"。
 
 <!-- more -->
-
-## 概述
-
-NVIDIA Container Toolkit 是一个工具集，它允许在 Docker 或其他容器运行时（如 containerd、Podman）中轻松地运行支持 GPU 加速的容器。它本质上是容器运行时和主机上的 NVIDIA GPU 驱动程序之间的"桥梁"。
 
 ### 主要特性
 

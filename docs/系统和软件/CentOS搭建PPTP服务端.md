@@ -9,7 +9,7 @@ tags:
   - CentOS
 ---
 
-本文将详细介绍如何在CentOS 7系统上搭建PPTP VPN服务端，实现远程安全连接。
+点对点隧道协议（PPTP）是建立在PPP（Point to Point）点对点协议上的VPN隧道技术。
 
 <!-- more -->
 

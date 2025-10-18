@@ -8,7 +8,7 @@ tags:
   - Docker CE
 ---
 
-本文将详细介绍如何在Windows Server 2019/2022上手动安装Docker CE版本，适用于需要命令行操作的专业用户。
+Docker CE版为社区维护版本，与Windows上的Docker Desktop最大区别是去除了图形化控制面板，所有Docker相关操作全部需要使用命令行，与Linux版本操作方式基本相同。去除图形界面后体积变得非常小，资源消耗也非常低，安装成功率接近100%。
 
 <!-- more -->
 
