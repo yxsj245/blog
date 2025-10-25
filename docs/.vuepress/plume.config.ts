@@ -41,7 +41,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: '<a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2025116534号-1</a> | <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41031102000868" target="_blank"><img src="https://images.server.xiaozhuhouses.asia/i/2025/06/09/ytwqb0.webp" style="display:inline-block;height:14px;margin-right:4px;vertical-align:middle;" alt="公安备案" />豫公网安备41031102000868号</a>',
+    message: '<a href="https://beian.miit.gov.cn/" target="_blank">豫ICP备2025116534号-1</a> | <a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41031102000868" target="_blank"><img src="https://images.server.xiaozhuhouses.asia:3000/i/2025/06/09/ytwqb0.webp" style="display:inline-block;height:14px;margin-right:4px;vertical-align:middle;" alt="公安备案" />豫公网安备41031102000868号</a>',
     copyright: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
   },
 
